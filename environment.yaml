@@ -1,0 +1,5 @@
+channels:
+  - defaults
+dependencies:
+  - nb_conda_kernels
+  - pandas
