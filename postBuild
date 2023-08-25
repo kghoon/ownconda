@@ -1,0 +1,6 @@
+#!/bin/bash -e
+
+# add ~/.conda/envs to the top of default env directories
+# this way, newly created conda envs will be in ~
+# which will get persisted
+echo -e "envs_dirs:\n  - /home/$USER/.conda/envs" >> /srv/conda/.condarc
